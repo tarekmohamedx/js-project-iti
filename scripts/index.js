@@ -11,7 +11,7 @@ products.forEach((item)=>{
         productsHtml += `
          <div class="col-lg-3 col-6 product-item">
                 <div class="card p-2" style="width: 100%;" data-aos="fade-up" data-aos-duration="1000">
-                  <img src="${item.productImage}" class="card-img-top productImage" data-image-id="${item.id}" title="${item.productName} $${item.productPrice}">
+                  <img src="../${item.productImage}" class="card-img-top productImage" data-image-id="${item.id}" title="${item.productName} $${item.productPrice}">
                   <div class="card-body">
                     <h5 class="card-title">${item.productName}</h5>
                     <p class="fw-bold">$${item.productPrice}</p>
